@@ -33,6 +33,8 @@ mv Kritika_4_R2.fastq sample2_R2.fq
 
 DATASTAT
 
+(refer "statistics.txt")
+
 (seqkit download:https://github.com/shenwei356/seqkit)
 
 seqkit stat *fq
@@ -98,6 +100,8 @@ samtools sort -o out1_sample2_bwa_mapped.bam out1_sample2_bwa_mapped.sam
 <5 sec
 
 STAT
+
+(refer: "Mapstat.txt")
 
 samtools flagstat out1_sample1_bwa_mapped.bam
 samtools flagstat out1_sample2_bwa_mapped.bam
