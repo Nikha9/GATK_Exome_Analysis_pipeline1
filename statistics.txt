@@ -1,0 +1,5 @@
+file           format  type  num_seqs    sum_len  min_len  avg_len  max_len
+sample1_R1.fq  FASTQ   DNA     10,319  1,558,169      151      151      151
+sample1_R2.fq  FASTQ   DNA     10,319  1,558,169      151      151      151
+sample2_R1.fq  FASTQ   DNA     10,237  1,545,787      151      151      151
+sample2_R2.fq  FASTQ   DNA     10,237  1,545,787      151      151      151
